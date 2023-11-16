@@ -1,0 +1,7 @@
+C:\Users\KK\Desktop\Task Solution, page 6\task 8, page 12\task 8, page 12\bin\Debug\task 8, page 12.exe.config
+C:\Users\KK\Desktop\Task Solution, page 6\task 8, page 12\task 8, page 12\bin\Debug\task 8, page 12.exe
+C:\Users\KK\Desktop\Task Solution, page 6\task 8, page 12\task 8, page 12\bin\Debug\task 8, page 12.pdb
+C:\Users\KK\Desktop\Task Solution, page 6\task 8, page 12\task 8, page 12\obj\Debug\task 8, page 12.csproj.AssemblyReference.cache
+C:\Users\KK\Desktop\Task Solution, page 6\task 8, page 12\task 8, page 12\obj\Debug\task 8, page 12.csproj.CoreCompileInputs.cache
+C:\Users\KK\Desktop\Task Solution, page 6\task 8, page 12\task 8, page 12\obj\Debug\task 8, page 12.exe
+C:\Users\KK\Desktop\Task Solution, page 6\task 8, page 12\task 8, page 12\obj\Debug\task 8, page 12.pdb
