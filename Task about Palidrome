@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace zad14_page20
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Четене на цяло число от клавиатурата
+            Console.Write("Въведете цяло число: ");
+            int number = int.Parse(Console.ReadLine());
+
+            // Проверка дали числото е палиндром
+            bool isPalindrome = IsPalindrome(number);
+
+            // Извеждане на резултата
+            if (isPalindrome)
+            {
+                Console.WriteLine("Yes");
+            }
+            else
+            {
+                Console.WriteLine("No");
+            }
+        }
+
+        // Метод за проверка дали число е палиндром
+        static bool IsPalindrome(int num)
+        {
+            int originalNumber = num;
+            int reversedNumber = 0;
+
+            while (num > 0)
+            {
+                int digit = num % 10;
+                reversedNumber = reversedNumber * 10 + digit;
+                num = num / 10;
+            }
+
+            return originalNumber == reversedNumber;
+        }
+    }
+}
