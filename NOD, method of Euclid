@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace zad11_page20
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Четене на две цели числа от клавиатурата
+            Console.Write("Въведете първото число: ");
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.Write("Въведете второто число: ");
+            int num2 = int.Parse(Console.ReadLine());
+
+            // Намиране на НОД с Алгоритъма на Евклид
+            int gcd = FindGCD(num1, num2);
+
+            // Извеждане на резултата
+            Console.WriteLine("Най-големият общ делител (НОД) на {0} и {1} е: {2}", num1, num2, gcd);
+        }
+
+        // Метод за намиране на НОД с Алгоритъма на Евклид
+        static int FindGCD(int a, int b)
+        {
+            while (b != 0)
+            {
+                int temp = b;
+                b = a % b;
+                a = temp;
+            }
+            return a;
+        }
+    }
+}
